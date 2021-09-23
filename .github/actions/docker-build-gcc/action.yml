@@ -1,0 +1,6 @@
+# action.yml
+name: 'Docker Build GCC'
+description: 'Build the project with GCC'
+runs:
+  using: 'docker'
+  image: '../../../ci.Dockerfile'
